@@ -1,30 +1,8 @@
-package data;
-import java.util.Set;
-import java.util.*;
-import java.net.*;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-
-import common.Person;
-
-
-
-public class RemoteDataSource {
-	
-	private String host;
-	private int port;
-	
-	public RemoteDataSource() {
-		// use Node Express defaults
-		host = "localhost";
-		port = 3000;
-	}
-	
-	public RemoteDataSource(String host, int port) {
-		this.host = host;
-		this.port = port;
-	}
+/*
+The following code completes a method on a Java 'RemoteDataSource' class to perform an http request
+to a Node.js Express server to request a data modification and then return a revised list of the new data.
+The rest of the java file has been omitted to respect intellectual property rights.
+*/
 
 
 	/* IMPLEMENT THIS METHOD! */
