@@ -1,31 +1,10 @@
-package data;
-import java.util.Set;
-import java.util.*;
-import java.net.*;
-import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-
-import common.Person;
-
-
-
-public class RemoteDataSource {
-	
-	private String host;
-	private int port;
-	
-	public RemoteDataSource() {
-		// use Node Express defaults
-		host = "localhost";
-		port = 3000;
-	}
-	
-	public RemoteDataSource(String host, int port) {
-		this.host = host;
-		this.port = port;
-	}
-
+/*
+The following code snippet is used as a solution to a more robust class object 
+that defines a remote data source and provides - as assigned - a method for 
+specifying new properties for an instance of a "Person" (also defined in classes
+omitted from this repository) and then saving it to a server via an API (see
+relevant Node.js in the parent folder).
+*/
 
 	/* IMPLEMENT THIS METHOD! */
 	public Set<Person> get(String[] ids) {
