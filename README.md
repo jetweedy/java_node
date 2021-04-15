@@ -1,2 +1,1 @@
-# java_node
-Connecting to a Node API using Java
+# Using Java to connect to a Node.js API
